@@ -33,7 +33,7 @@ const News = (props) =>{
 
     useEffect(()=>{
         update();
-    });
+    },[]);
 
     const fetchMoreData = async () =>{
         // let url = `https://newsapi.org/v2/top-headlines?country=${props.country}&category=${props.category}&apiKey=c52646a7d4384a60a99ee65ef6042d6e&page=${page+1}&pageSize=${props.pageSize}`;
