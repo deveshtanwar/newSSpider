@@ -27,7 +27,7 @@ const App = () =>{
   }
 
   return(
-      <BrowserRouter>
+      <BrowserRouter basename="/newSSpider">
         <Navbar darkModeBtn={darkModeFunc} mode={mode}/>
         <LoadingBar color='#f11946'
         progress={progress}
