@@ -15,7 +15,7 @@ const App = () =>{
   }
   
   const darkModeFunc = () =>{
-    if(mode == 'light'){
+    if(mode === 'light'){
       setMode('dark');
       document.body.style.backgroundColor = "#202124";
     }
